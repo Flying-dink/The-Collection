@@ -42,7 +42,10 @@ header nav ul {
 
   }
 
-
+.image {
+    width: 350px;
+    height: 350px;
+}
 
   .footer-ul {
       display: flex;
