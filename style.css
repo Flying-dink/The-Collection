@@ -1,4 +1,9 @@
-
+header {
+    text-shadow: violet;
+}
+h1 {
+  text-shadow: yellowgreen;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +26,10 @@ header nav ul {
     text-shadow: none;
   }
 
-
+  .p {
+    font-size: x-large;
+    color: thistle;
+  }
   
 
   .projects {
@@ -60,4 +68,12 @@ header nav ul {
       text-decoration: none;
       list-style: none;
   }
-  
+/* Width at 1024px and below */
+@media screen and (max-width: 1024px)  {
+    
+} 
+
+
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px)
