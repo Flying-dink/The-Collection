@@ -59,8 +59,11 @@ header nav ul {
       align-items: center;
   }
   .main-image {
-      width: 100%;
+    width: 1300px; 
     align-items: center;
+    position: relative;
+    height:550px;
+    margin-bottom: 20px;
   }
   .other-projects {
       display: flex;
@@ -79,6 +82,7 @@ header nav ul {
     width: 100%;
     flex-wrap: wrap;
   }
+
   .flex-item {
     display: flex;
     flex-direction: column;
@@ -89,9 +93,21 @@ header nav ul {
     margin-bottom: 30px;
     justify-content: space-evenly;
     background-position: center;
-    margin-top: auto;
-  }
+      position: relative;
+      text-align: center;
+      color: white;
+    height:500px;
+    width:500px;
+    margin-right:100px;
 
+  }
+  .center {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 10px 35px;
+    background: blue;
+  }
   .flex-item span {
     width: 100%;
     flex-direction: column;
