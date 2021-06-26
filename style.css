@@ -1,38 +1,74 @@
-header {
-    text-shadow: violet;
+body {
+  padding: 20px;
 }
+
+header {
+  text-shadow: violet;
+}
+
 h1 {
   text-shadow: yellowgreen;
 }
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-  }
+.about-me{
+  margin-top:  20px;
+}
+.name{
+  text-decoration: none;
+  text-align: center;
 
-  .p {
-    font-size: x-large;
-    color: thistle;
-  }
-  
+}
+.info{
+  font-style: italic;
+  line-height: 1.7;
+  font-weight: 5rem;
+  letter-spacing: 1px;
+}
+.myimg {
+  border-radius:50px;
+}
 
-  .projects {
+.about {
+  display: block;
+  float: left;
+}
+.background{
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: white;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+
+.social {
+  margin: 5px;
+}
+#projects{
+  margin-top: 100px;
+}
+.projects {
       background-color: wheat;
   }
   .projects-container {
@@ -76,36 +112,19 @@ header nav ul {
     width: 100%;
     flex-direction: column;
     margin-top: auto;
-    
-  }
-  
 
-  
+  }
+
+
+
 
 .image {
     width: 350px;
     height: 350px;
 }
 
-  .footer-ul {
-      display: flex;
-      flex-direction: row;
-      text-decoration: none;
-      justify-content: space-around;
-
-
-  }
-
-  .footer-ul > li {
-      text-decoration: none;
-      list-style: none;
-  }
 /* Width at 1024px and below */
-@media screen and (max-width: 1024px)  {
-    
-} 
-
-
+@media screen and (max-width: 1024px) {}
 
 /* Width at 768px and below */
 @media screen and (max-width: 768px)
