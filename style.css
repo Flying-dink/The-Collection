@@ -49,6 +49,38 @@ header nav ul {
       display: flex;
 
   }
+  .flex-container {
+    display: flex;
+    flex-flow: column ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    background-position: center;
+    margin-top: auto;
+  }
+
+  .flex-item span {
+    width: 100%;
+    flex-direction: column;
+    margin-top: auto;
+    
+  }
+  
+
+  
 
 .image {
     width: 350px;
